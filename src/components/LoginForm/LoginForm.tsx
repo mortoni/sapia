@@ -24,7 +24,7 @@ const LoginForm = ({ onCancel }: { onCancel: () => void }) => {
   };
 
   return (
-    <div className="m-5">
+    <div className="m-5" data-testid="loginForm">
       <form onSubmit={handleSubmit}>
         <div>
           <label
